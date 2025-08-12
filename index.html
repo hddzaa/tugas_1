@@ -5,11 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas - 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1 align="center">Perkembangan Website dari 1.0 - 4.0</h1>
-    <h5 align="center"><i>Writed by: Zahid</i></h5>
+<body bgcolor="#EEEEEE">
+    <header>
+        <div class="left"><h1 class="logo">Perkembangan Website dari 1.0 - 4.0</h1></div>
+        <div><p class="user"><i>Writed by: Zahid. R</i></p></div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
     <img src="illustrations.jpg" alt="" width="" height="300">
 
     <h2>1. Web 1.0 (Read-Only) - 1990-an</h2>
@@ -92,6 +103,62 @@
     </button>
 
     <p align="right"><i>30 July, 2025</i></p>
+
+    <br>
+    <br>
+
+    <form action="">
+        <fieldset>
+            <legend>Komentar</legend>
+            <label for="name">Nama</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Masukkan Nama" required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Masukkan Email" required>
+            <br>
+            <br>
+            <label for="komentar">Komentar</label>
+            <br>
+            <textarea name="komentar" id="komentar" placeholder="Masukkan Komentar" cols="30" rows="18"
+                required></textarea>
+            <br>
+            <br>
+            <label for="rating">Rating</label>
+            <br>
+            <input type="radio" name="rating" id="1">
+            <label for="1">1</label>
+            <input type="radio" name="rating" id="2">
+            <label for="2">2</label>
+            <input type="radio" name="rating" id="3">
+            <label for="3">3</label>
+            <input type="radio" name="rating" id="4">
+            <label for="4">4</label>
+            <input type="radio" name="rating" id="5">
+            <label for="5">5</label>
+            <br>
+            <br>
+            <button>Kelas</button>
+        </fieldset>
+    </form>
+
+    <br>
+    <br>
+
+    <p>My Web</p>
+    <iframe src="./about.html" frameborder="0"
+    height="500"
+    width="900"
+    title="My Web"></iframe>
+
+    <br>
+    <br>
+
+    <footer>
+        <p>&copy; 2K25 Hdza Inc. Hak Cipta</p>
+    </footer>
 </body>
 
 </html>
