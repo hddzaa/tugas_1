@@ -5,10 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <style>
+        header {
+            background-color: #333446;
+            height: 60px;
+        }
+
+        header .left .logo {
+            color: #eeeeee;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #3a98b9;
+            text-align: center;
+            height: 50px;
+        }
+
+        nav ul {
+            vertical-align: middle;
+        }
+
+        nav li {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 5px;
+        }
+
+        nav ul li:hover {
+            background-color: #0078aa;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            height: 50px;
+            line-height: 50px;
+            padding: 0 10px;
+        }
+
+        footer {
+            background-color: #333446;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            color: white;
+        }
+    </style>
 </head>
 
-<body style="background-color: black;">
-    <h1 align="center" style="color: white;">About Me!</h1><br>
+<body bgcolor="black">
+    <header>
+        <div class="left">
+            <h1 class="logo">About Me!</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
     <img src="Screenshot 2025-06-17 073759.png" alt="" width="" height="300"> <img
         src="Screenshot 2025-06-17 080718.png" alt="" width="" height="300">
     <p style="color: white;">Name: M. Zahid Rantisi <br>Place/birthdate: Depok, 23-05-2008 <br>Gender: Male <br>Address:
@@ -38,6 +98,15 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+    <br>
+    <br>
+
+    <p style="color: white;">My "other" Web🗿</p>
+    <iframe src="./posts.html" frameborder="0" height="400" width="750" title="My Web"></iframe>
+
+    <footer>
+        <p>&copy; 2K25 Hdza Inc. Hak Cipta</p>
+    </footer>
 </body>
 
 </html>
